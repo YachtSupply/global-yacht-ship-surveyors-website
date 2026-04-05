@@ -33,22 +33,22 @@ export interface OutboundWebhookConfig {
 
 export const siteConfig = {
   // ── Core business info ────────────────────────────────────
-  name: 'Marine Pro',
+  name: 'Global Yacht & Ship Surveyors',
   tagline: 'Expert Yacht & Marine Services',
   description: 'Professional yacht management and marine repair services delivered with precision and care.',
   about: 'Marine Pro is a full-service marine contractor specializing in yacht management, repairs, and maintenance. Our experienced team delivers quality workmanship on every job.',
-  phone: '(555) 555-0100',
-  email: 'info@marinepro.example.com',
+  phone: '(305) 271-8345',
+  email: 'marinesurveys@gmail.com',
   address: '123 Marina Way, Fort Lauderdale, FL 33316',
   location: '123 Marina Way, Fort Lauderdale, FL 33316',
-  city: 'Fort Lauderdale',
+  city: 'Miami',
   state: 'FL',
   logoUrl: '',
 
   // ── Boatwork integration ──────────────────────────────────
   boatwork: {
-    profileSlug: 'template',
-    profileId: '', // UUID — set during provisioning, permanent link to profile
+    profileSlug: 'global-yacht-ship-surveyors',
+    profileId: '92af9b2f-1b5b-4fa3-87ac-2a77cdb66ab5', // UUID — set during provisioning, permanent link to profile
     profileUrl: 'https://boatwork.co/pro/template/',
     logoUrl: '/boatwork-logo.svg',
     useLiveReviews: false,
